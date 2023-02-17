@@ -23,24 +23,45 @@ body {
 max-height: 3848px;
  }
  
- .navigation {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20%;
-    align-items: center;
-    font-size:larger;
-    font-weight:bold;
  
-    font-family: 'Raleway';
- font-style: normal;
 
- font-size: 20px;
- line-height: 21px;
- letter-spacing: 0.1em;
 
- padding: 30px;
- color: #805e4e
- ;
+.topnav {
+   background-color:  #c7a191;
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   margin-left: -10%;
+   align-items: center;
+   font-size:larger;
+   font-weight:bold;
+   height: 70px;
+   width: 900px;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+ }
+ .navigation{
+   top: 85px;
+   bottom: 34px;
+   position: absolute;
+   display: flex;
+   justify-content: space-evenly;
+   align-content: stretch;
+   left: 400px;
+ }
+ .topnav a {
+   float: left;
+   color: #805e4e;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 30px;
+ }
+ 
+
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
  }
 
  .menu {
@@ -296,3 +317,4 @@ font-size:larger;
 }
 
 
+ 
