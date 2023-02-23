@@ -1,0 +1,78 @@
+/*font-family: 'Ms Madi', cursive;
+font-family: 'Raleway', sans-serif;
+
+Colours from logo:CSS
+--magnolia: #F6EFFFff;
+--rose-taupe: #855F52ff;
+--desert-sand: #EFD4BCff;
+--rosy-brown: #C7A194ff;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@100;400;600&display=swap');
+body {
+    background-color: #F6EFFFff;
+    color: #0c040f;
+    width: 75%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex__container {
+    display: grid;
+    grid-template: repeat(6, 1fr) / 3fr 1fr 1fr;
+    justify-content: space-between;
+
+}
+.landing__info {
+    grid-area: 2/1/5/2;
+}
+.landing__title {
+    font-family: 'Ms Madi', cursive;
+    font-size: 70px;
+    color: #501C65;
+}
+.landing__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.landing__info-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.landing__images {
+    grid-area: 1/2/7/4;
+    display: grid;
+    grid-template: repeat(6, 1fr)/repeat(6, 1fr);
+}
+.logo-img {
+    height: 80vh;
+    z-index: -1;
+    border-left: 2px solid #501C65;
+    border-radius: 50%;
+    padding-left: 30px;
+    padding-top: 30px;
+    grid-area: 1/1/6/6;
+}
+.landing__img--small {
+    max-width: 200px;
+    border-radius: 50%;
+    border-left: 1px solid #501C65;
+    padding: 10px;
+    opacity: 70%;
+}
+.landing__img--small:hover {
+    opacity: 100%;
+    transform: scale(1.2);
+}
+.stones-img {
+    grid-area: 3/1/4/2;
+}
+.bb-img {
+    grid-area: 2/2/3/3;
+}
+.lavender-img {
+    grid-area: 4/2/5/3;
+}
