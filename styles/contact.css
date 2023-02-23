@@ -51,7 +51,7 @@ max-height: 3848px;
  }
  .topnav a {
    float: left;
-   color: #805e4e;
+   color: #501C65;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -82,7 +82,7 @@ font-size: 70px;
  letter-spacing: 0.1em;
 
  padding: 30px;
- color: #805e4e
+ color: #501C65
  ;  
  display: flex;
    flex-wrap: wrap;
@@ -105,7 +105,7 @@ font-size: 70px;
  letter-spacing: 0.1em;
 
  padding: 30px;
- color: #805e4e;
+ color: #501C65;
 }
 
 .block1{
@@ -137,7 +137,7 @@ font-size: 70px;
    letter-spacing: 0.1em;
   
    padding: 30px;
-   color: #805e4e
+   color: #501C65;
    ;
    }
    
@@ -162,7 +162,7 @@ font-size: 70px;
       letter-spacing: 0.1em;
   
       
-      color: #805e4e;
+      color: #501C65;
       padding: 30px;
     
       }
@@ -182,8 +182,7 @@ font-size: 70px;
 
  font-size:larger;
     font-weight:bold;
- color:  #805e4e;
- 
+    color: #501C65;
  }
  button {
  background:#805e4e ;
@@ -203,8 +202,7 @@ font-size: 70px;
  text-align: center;
  letter-spacing: 0.1em;
  
- 
- color:  #c7a191;
+ color: #501C65;
  }
  
  button:hover {
@@ -247,7 +245,7 @@ font-size:larger;
        letter-spacing: 0.1em;
    
        padding: 30px;
-       color: #805e4e;
+       color: #501C65;
        }
     
   .label4{
@@ -268,7 +266,7 @@ font-size:larger;
  
  letter-spacing: 0.3em;
  
- color: #805e4e;
+ color: #501C65;
  
           }
  
@@ -281,8 +279,7 @@ font-size:larger;
  font-size: 18px;
  line-height: 21px;
 
-     color: #805e4e;
-   
+ color: #501C65;
      margin-bottom: 10px;
              border-bottom-right-radius: 5px;
              border-bottom-left-radius: 5px;
@@ -299,7 +296,7 @@ font-size:larger;
 	padding: 0;
 	margin-bottom: 20px;
 	border-radius: 5px;
-   color: #805e4e;
+  color: #501C65;
      border: none;
 
      font-family: 'Raleway';
