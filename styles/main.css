@@ -5,14 +5,21 @@ $page-title-color: #501c65;
 $main-font: 'Raleway', sans-serif;
 $decoration-font: 'Ms Madi', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@100;400;600&display=swap");
+body {
+  background-color: #F5EFFF;
+}
+
 .page-title {
   font-family: "Ms Madi", cursive;
   font-size: 80px;
   color: #501c65;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 .txt {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 26px;
   color: #0c040f;
 }
