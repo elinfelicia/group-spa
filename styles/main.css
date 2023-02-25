@@ -1,6 +1,52 @@
 /*font-family: 'Ms Madi', cursive;
 font-family: 'Raleway', sans-serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@100;400;600&display=swap");
+.logo {
+  max-width: 12%;
+  position: fixed;
+}
+
+.nav {
+  display: block;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+}
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.nav__link {
+  color: #501c65;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 90px;
+}
+.nav__link:hover {
+  color: #c7a194;
+}
+
+.footer__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.footer__contact__info {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #0c040f;
+  margin: 20px;
+}
+
 body {
   background-color: #F5EFFF;
 }
@@ -10,7 +56,7 @@ body {
   font-size: 80px;
   color: #501c65;
   text-align: center;
-  margin: 10px;
+  margin: 50px;
   padding: 10px;
 }
 
