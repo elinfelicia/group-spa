@@ -24,9 +24,10 @@ font-family: 'Raleway', sans-serif;*/
   color: #501c65;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+  text-decoration: none;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  font-size: 90px;
+  font-size: 35px;
 }
 .nav__link:hover {
   color: #c7a194;

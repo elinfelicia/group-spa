@@ -23,8 +23,9 @@
         color: #501c65;
         font-family: fonts.$main-font;
         text-transform: uppercase;
+        text-decoration: none;
         transition: 0.2s;
-        font-size: 90px;
+        font-size: 35px;
     }
 
     &__link:hover {

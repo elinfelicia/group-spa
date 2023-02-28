@@ -137,12 +137,3 @@
   -ms-grid-column-span: 6;
   grid-area: 5/13/6/19;
 }
-
-.nav__link {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: -0.346154px;
-}
