@@ -4,7 +4,8 @@
 font-family: 'Raleway', sans-serif;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@100;400;600&display=swap');
-
+@import 'header';
+@import 'footer';
 
 body {
     background-color: #F5EFFF;
@@ -15,7 +16,7 @@ body {
     font-size: 80px;
     color: fonts.$page-title-color;
     text-align: center;
-    margin: 10px;
+    margin: 50px;
     padding: 10px
 }
 
