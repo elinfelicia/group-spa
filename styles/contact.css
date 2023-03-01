@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body {
    font-family: 'Raleway', sans-serif;
    font-family: 'Ms Madi', cursive;
@@ -169,8 +170,79 @@ font-size: 70px;
       
 
  
+=======
+.footer__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.footer__contact__info {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #0c040f;
+  margin: 20px;
+}
 
+.logo {
+  max-width: 12%;
+  position: fixed;
+}
 
+.nav {
+  display: block;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+}
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.nav__link {
+  color: #501c65;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 35px;
+}
+.nav__link:hover {
+  color: #c7a194;
+}
+>>>>>>> Stashed changes
+
+h1 {
+  font-family: "Ms Madi", cursive;
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 30px;
+  color: #0c040f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+<<<<<<< Updated upstream
  .input, .textarea {
    font-family: 'Raleway';
  font-style: normal;
@@ -216,15 +288,37 @@ font-size: 70px;
     justify-content: space-evenly;
     display: flex;
     align-items: flex-start;
+=======
+.block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 
-font-size:larger;
-    font-weight:bold;
-    width: 800px;
-    min-height: 884px;
-    left: 243px;
-    top: 490px;
-    padding: 1px 0px 0px 20px;
+.rectangle1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
+.label1 {
+  letter-spacing: 0.1em;
+}
+>>>>>>> Stashed changes
+
+.label2 {
+  letter-spacing: 0.1em;
+}
+
+<<<<<<< Updated upstream
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
  }
 
@@ -288,11 +382,67 @@ font-size:larger;
              width: 400px;
               height: 40px;
  border: none;
+=======
+.label3 {
+  letter-spacing: 0.1em;
+  color: #0c040f;
+}
 
-    font-weight:bold;
-  }
+.label4 {
+  letter-spacing: 0.1em;
+  color: #0c040f;
+}
+
+.textarea {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  background: #c7a191;
+  letter-spacing: 0.1em;
+  color: #0c040f;
+}
+
+form {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: larger;
+  font-weight: bold;
+  width: 700px;
+  min-height: 730px;
+  padding: 1px 0px 0px 20px;
+  -webkit-box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+  margin: 50px;
+}
+>>>>>>> Stashed changes
+
+.input-field {
+  letter-spacing: 0.1em;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  line-height: 21px;
+  color: #0c040f;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  background: #c7a191;
+  width: 400px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+}
 
 .label--large {
+<<<<<<< Updated upstream
 	padding: 0;
 	margin-bottom: 20px;
 	border-radius: 5px;
@@ -307,11 +457,58 @@ font-size:larger;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
  
+=======
+  padding: 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+>>>>>>> Stashed changes
 }
 
 .label__text {
-	padding: 4px 7px;
+  padding: 4px 7px;
 }
 
+<<<<<<< Updated upstream
 
  
+=======
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0c040f;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  background: #c7a191;
+  border-radius: 40px;
+  width: 202px;
+  height: 48px;
+  border: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  line-height: 21px;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #501C65;
+}
+
+button:hover {
+  background-color: rgb(216, 106, 150);
+  color: #c7a191;
+}
+>>>>>>> Stashed changes
