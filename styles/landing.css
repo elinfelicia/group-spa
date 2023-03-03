@@ -11,18 +11,14 @@
   margin-top: 50px;
 }
 .nav__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 .nav__link {
   color: #501c65;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   font-size: 35px;
 }
@@ -31,12 +27,8 @@
 }
 
 .footer__contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
 }
 .footer__contact__info {
   font-family: "Raleway", sans-serif;
@@ -51,36 +43,19 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .landing__main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .landing__info {
   max-width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .landing__title {
   font-family: "Ms Madi", cursive;
@@ -100,8 +75,6 @@
   line-height: 35px;
 }
 .landing__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .landing__img--logo {
@@ -121,9 +94,7 @@
 }
 .landing__img--small:hover {
   opacity: 20%;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 1.8s 0.2s;
+  transform: scale(1.2);
   transition: 1.8s 0.2s;
 }
 .landing__img--round {
@@ -138,4 +109,4 @@
   color: #0c040f;
   max-width: 90%;
   z-index: -1;
-}
+}/*# sourceMappingURL=landing.css.map */
