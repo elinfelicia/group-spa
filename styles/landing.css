@@ -25,6 +25,9 @@
 .nav__link:hover {
   color: #c7a194;
 }
+.nav__list {
+  list-style: none;
+}
 
 .footer__contact {
   display: flex;
