@@ -87,6 +87,7 @@ body {
     width: 15rem;
     margin: auto;
     line-height: 25px;
+    list-style: none;
 }
 
 .about_list li:nth-child(odd) {
